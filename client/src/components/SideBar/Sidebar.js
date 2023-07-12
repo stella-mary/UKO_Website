@@ -198,48 +198,342 @@ const Sidebar = () => {
                             >Profile 2</MenuItem>
                         </SubMenu>
 
-                        <Item
+                        <SubMenu
                             title="Accounts"
-                            to="/calendar"
-                            icon={<CalendarTodayOutlinedIcon />}
+                            to="/form"
+                            icon={<PersonOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
-                        />
-                        <Item
+                        >
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Account 1</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Account 2</MenuItem>
+                        </SubMenu>
+
+                        <SubMenu
                             title="User & Contact"
-                            to="/faq"
-                            icon={<HelpOutlineOutlinedIcon />}
+                            to="/form"
+                            icon={<PersonOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
-                        />
-                        <Item
+                        >
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Add User</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >User List 1</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >User List 2</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >User Grid 1</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >User Grid 2</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Contact List</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Contact Grid</MenuItem>
+                        </SubMenu>
+
+
+                        <SubMenu
                             title="Invoice"
-                            to="/invoices"
-                            icon={<ReceiptOutlinedIcon />}
+                            to="/form"
+                            icon={<PersonOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
-                        />
-                        <Item
+                        >
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Invoice List 1</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Invoice List 2</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Invoice Details 1</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Invoice Details 2</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Create Invoice 1</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Create Invoice 2</MenuItem>
+                        </SubMenu>
+
+                        <SubMenu
                             title="Ecommerce"
-                            to="/invoices"
-                            icon={<ReceiptOutlinedIcon />}
+                            to="/form"
+                            icon={<PersonOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
-                        />
-                        <Item
+                        >
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Cart</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Payment</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Billing Details</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Shop 1</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Shop 2</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Checkout 1</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Checkout 2</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Payment Complete 1</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Payment Complete 2</MenuItem>
+                        </SubMenu>
+
+
+                        <SubMenu
                             title="Admin Ecommerce"
-                            to="/invoices"
-                            icon={<ReceiptOutlinedIcon />}
+                            to="/form"
+                            icon={<PersonOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
-                        />
-                        <Item
+                        >
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Product List</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Product Grid</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Create Product</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Order Management</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Product Management</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Customer Management</MenuItem>
+                        </SubMenu>
+
+                        <SubMenu
                             title="Projects"
-                            to="/invoices"
-                            icon={<ReceiptOutlinedIcon />}
+                            to="/form"
+                            icon={<PersonOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
-                        />
+                        >
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Project List 1</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Project List 2</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Project List 3</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Team Member</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Project Details</MenuItem>
+                        </SubMenu>
+
                         <Item
                             title="Data Table"
                             to="/invoices"
@@ -270,27 +564,167 @@ const Sidebar = () => {
                             selected={selected}
                             setSelected={setSelected}
                         />
-                        <Item
+
+                        <SubMenu
                             title="Chats"
-                            to="/line"
-                            icon={<TimelineOutlinedIcon />}
+                            to="/form"
+                            icon={<PersonOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
-                        />
-                        <Item
+                        >
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Chat 1</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Chat 2</MenuItem>
+                        </SubMenu>
+                        <SubMenu
                             title="Sessions"
-                            to="/geography"
-                            icon={<MapOutlinedIcon />}
+                            to="/form"
+                            icon={<PersonOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
-                        />
-                        <Item
+                        >
+                            <SubMenu
+                                title="Sign In"
+                                to="/form"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                                selected={selected}
+                                setSelected={setSelected}
+                            >
+                                <MenuItem
+                                    style={{
+                                        margin: "10px 0 10px 12px",
+                                        color: colors.grey[100],
+                                    }}
+                                    // to="/faq"
+                                    icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                                >Sign In</MenuItem>
+                                <MenuItem
+                                    style={{
+                                        margin: "10px 0 10px 12px",
+                                        color: colors.grey[100],
+                                    }}
+                                    // to="/faq"
+                                    icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                                >Sign In</MenuItem>
+                            </SubMenu>
+
+                            <SubMenu
+                                title="Register"
+                                to="/form"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                                selected={selected}
+                                setSelected={setSelected}
+                            >
+                                <MenuItem
+                                    style={{
+                                        margin: "10px 0 10px 12px",
+                                        color: colors.grey[100],
+                                    }}
+                                    // to="/faq"
+                                    icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                                >Register 1</MenuItem>
+                                <MenuItem
+                                    style={{
+                                        margin: "10px 0 10px 12px",
+                                        color: colors.grey[100],
+                                    }}
+                                    // to="/faq"
+                                    icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                                >Register 2</MenuItem>
+                            </SubMenu>
+
+
+                            <SubMenu
+                                title="Forget Password"
+                                to="/form"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                                selected={selected}
+                                setSelected={setSelected}
+                            >
+                                <MenuItem
+                                    style={{
+                                        margin: "10px 0 10px 12px",
+                                        color: colors.grey[100],
+                                    }}
+                                    // to="/faq"
+                                    icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                                >Forget Password 1</MenuItem>
+
+                                <MenuItem
+                                    style={{
+                                        margin: "10px 0 10px 12px",
+                                        color: colors.grey[100],
+                                    }}
+                                    // to="/faq"
+                                    icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                                >Forget Password 2</MenuItem>
+                            </SubMenu>
+
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Two Step Verification</MenuItem>
+
+                        </SubMenu>
+
+                        <SubMenu
                             title="Pages"
-                            to="/invoices"
-                            icon={<ReceiptOutlinedIcon />}
+                            to="/form"
+                            icon={<PersonOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
-                        />
+                        >
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Pricing</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >About</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Contact</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Privacy</MenuItem>
+                        </SubMenu>
+
                         <Item
                             title="Documentation"
                             to="/invoices"
