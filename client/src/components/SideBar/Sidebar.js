@@ -5,6 +5,31 @@ import { Link } from "react-router-dom";
 import './Sidebar.css'
 import "react-pro-sidebar/dist/css/styles.css";
 import { tokens } from "../../theme";
+import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
+import MenuBookIcon from '@mui/icons-material/MenuBook';
+import LogoutIcon from '@mui/icons-material/Logout';
+import ChatIcon from '@mui/icons-material/Chat';
+import ShoppingBasketOutlinedIcon from '@mui/icons-material/ShoppingBasketOutlined';
+import ListAltIcon from '@mui/icons-material/ListAlt';
+import TableChartIcon from '@mui/icons-material/TableChart';
+import DataUsageIcon from '@mui/icons-material/DataUsage';
+import FileCopyOutlinedIcon from '@mui/icons-material/FileCopyOutlined';
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import LocalGroceryStoreOutlinedIcon from '@mui/icons-material/LocalGroceryStoreOutlined';
+import ReceiptOutlinedIcon from '@mui/icons-material/ReceiptOutlined';
+import PeopleOutlineOutlinedIcon from '@mui/icons-material/PeopleOutlineOutlined';
+import PersonAddAltOutlinedIcon from '@mui/icons-material/PersonAddAltOutlined';
+import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
+import LayersOutlinedIcon from '@mui/icons-material/LayersOutlined';
+import QuestionMarkOutlinedIcon from '@mui/icons-material/QuestionMarkOutlined';
+import InventoryOutlinedIcon from '@mui/icons-material/InventoryOutlined';
+import AccessibilityNewOutlinedIcon from '@mui/icons-material/AccessibilityNewOutlined';
+import AttachMoneyOutlinedIcon from '@mui/icons-material/AttachMoneyOutlined';
+import MonetizationOnOutlinedIcon from '@mui/icons-material/MonetizationOnOutlined';
+import CheckBoxOutlineBlankOutlinedIcon from '@mui/icons-material/CheckBoxOutlineBlankOutlined';
+import CalendarTodayOutlinedIcon from "@mui/icons-material/CalendarTodayOutlined";
+
+import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 import PeopleOutlinedIcon from "@mui/icons-material/PeopleOutlined";
@@ -110,49 +135,49 @@ const Sidebar = () => {
                         <Item
                             title="LMS"
                             to="/team"
-                            icon={<PeopleOutlinedIcon />}
+                            icon={<CheckBoxOutlineBlankOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
                         <Item
                             title="Sales 1"
                             to="/contacts"
-                            icon={<ContactsOutlinedIcon />}
+                            icon={<MonetizationOnOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
                         <Item
                             title="Sales 2"
                             to="/invoices"
-                            icon={<ReceiptOutlinedIcon />}
+                            icon={<AttachMoneyOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
                         <Item
                             title="Hiring"
                             to="/invoices"
-                            icon={<ReceiptOutlinedIcon />}
+                            icon={<AccessibilityNewOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
                         <Item
                             title="Project 1"
                             to="/invoices"
-                            icon={<ReceiptOutlinedIcon />}
+                            icon={<InventoryOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
                         <Item
                             title="Project 2"
                             to="/invoices"
-                            icon={<ReceiptOutlinedIcon />}
+                            icon={<InventoryOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
                         <Item
                             title="CRM"
                             to="/invoices"
-                            icon={<ReceiptOutlinedIcon />}
+                            icon={<QuestionMarkOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
@@ -160,7 +185,7 @@ const Sidebar = () => {
                         <Item
                             title="Saas"
                             to="/invoices"
-                            icon={<ReceiptOutlinedIcon />}
+                            icon={<LayersOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
@@ -176,7 +201,7 @@ const Sidebar = () => {
                         <SubMenu
                             title="Profiles"
                             to="/form"
-                            icon={<PersonOutlinedIcon />}
+                            icon={<Person2OutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         >
@@ -201,7 +226,7 @@ const Sidebar = () => {
                         <SubMenu
                             title="Accounts"
                             to="/form"
-                            icon={<PersonOutlinedIcon />}
+                            icon={<PersonAddAltOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         >
@@ -226,7 +251,7 @@ const Sidebar = () => {
                         <SubMenu
                             title="User & Contact"
                             to="/form"
-                            icon={<PersonOutlinedIcon />}
+                            icon={<PeopleOutlineOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         >
@@ -349,7 +374,7 @@ const Sidebar = () => {
                         <SubMenu
                             title="Ecommerce"
                             to="/form"
-                            icon={<PersonOutlinedIcon />}
+                            icon={<ShoppingBasketOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         >
@@ -431,7 +456,7 @@ const Sidebar = () => {
                         <SubMenu
                             title="Admin Ecommerce"
                             to="/form"
-                            icon={<PersonOutlinedIcon />}
+                            icon={<LocalGroceryStoreOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         >
@@ -488,7 +513,7 @@ const Sidebar = () => {
                         <SubMenu
                             title="Projects"
                             to="/form"
-                            icon={<PersonOutlinedIcon />}
+                            icon={<DataUsageIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         >
@@ -537,7 +562,7 @@ const Sidebar = () => {
                         <Item
                             title="Data Table"
                             to="/invoices"
-                            icon={<ReceiptOutlinedIcon />}
+                            icon={<TableChartIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
@@ -553,14 +578,14 @@ const Sidebar = () => {
                         <Item
                             title="Todo List"
                             to="/bar"
-                            icon={<BarChartOutlinedIcon />}
+                            icon={<ListAltIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
                         <Item
                             title="Calendar"
                             to="/pie"
-                            icon={<PieChartOutlineOutlinedIcon />}
+                            icon={<CalendarTodayOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
@@ -568,7 +593,7 @@ const Sidebar = () => {
                         <SubMenu
                             title="Chats"
                             to="/form"
-                            icon={<PersonOutlinedIcon />}
+                            icon={<ChatIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         >
@@ -592,7 +617,7 @@ const Sidebar = () => {
                         <SubMenu
                             title="Sessions"
                             to="/form"
-                            icon={<PersonOutlinedIcon />}
+                            icon={<LogoutIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         >
@@ -687,7 +712,7 @@ const Sidebar = () => {
                         <SubMenu
                             title="Pages"
                             to="/form"
-                            icon={<PersonOutlinedIcon />}
+                            icon={<MenuBookIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         >
@@ -728,7 +753,7 @@ const Sidebar = () => {
                         <Item
                             title="Documentation"
                             to="/invoices"
-                            icon={<ReceiptOutlinedIcon />}
+                            icon={<FileCopyOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
