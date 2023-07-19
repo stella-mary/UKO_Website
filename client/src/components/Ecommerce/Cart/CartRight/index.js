@@ -21,7 +21,7 @@ const CartRight = () => {
                     p="15px"
                 >
 
-                    <Typography color={colors.grey[100]} variant="h2" fontWeight="600" marginBottom="15px" fontSize="20px">
+                    <Typography color={colors.grey[100]} variant="h2" fontWeight="600" marginBottom="15px" fontSize="15px">
                         Order Summery
                     </Typography>
                 </Box>
