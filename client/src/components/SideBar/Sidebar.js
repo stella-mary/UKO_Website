@@ -386,9 +386,17 @@ const Sidebar = () => {
                                     margin: "10px 0 10px 12px",
                                     color: colors.grey[100],
                                 }}
-                                // to="/faq"
+                                to="/product"
                                 icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
                             >Billing Details</MenuItem>
+                            <MenuItem
+                                style={{
+                                    margin: "10px 0 10px 12px",
+                                    color: colors.grey[100],
+                                }}
+                                // to="/faq"
+                                icon={<FiberManualRecordIcon style={{ fontSize: '8px' }} />}
+                            >Product Details</MenuItem>
                             <MenuItem
                                 style={{
                                     margin: "10px 0 10px 12px",

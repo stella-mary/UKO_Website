@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Sidebar from './components/SideBar/Sidebar'
 import Topbar from "./components/TopBar/Topbar";
 import Cart from './components/Ecommerce/Cart/Cart'
+import Product from './components/Ecommerce/Product/Product'
+
 
 
 function App() {
@@ -24,9 +26,9 @@ function App() {
               {/* <Route path="/" element={<Dashboard />} /> */}
               <Route path="cart" element={<Cart />} />
               {/* <Route path="payment" element={<Payment />} />
-              <Route path="bill" element={<Bill />} />
+              <Route path="bill" element={<Bill />} /> */}
               <Route path="product" element={<Product />} />
-              <Route path="shop1" element={<Shop1 />} />
+              {/* <Route path="shop1" element={<Shop1 />} />
               <Route path="checkout1" element={<CheckOut1 />} />
               <Route path="checkout2" element={<CheckOut2 />} />
               <Route path="Complete1" element={<PaymentComplete1 />} />
