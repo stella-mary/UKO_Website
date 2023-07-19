@@ -69,12 +69,9 @@ export default function ProductTop() {
 
             <Box
                 sx={{
-                    // border: "solid 1px green",
                     width: "44%",
                     marginLeft: "10px",
                     alignItems: "top",
-                    // justifyContent: "center",
-
                 }}
             >
                 <Typography backgroundColor="#27ce88" padding="5px" width="25%" borderRadius="10px" textAlign="center">In Stock</Typography>
@@ -203,10 +200,10 @@ export default function ProductTop() {
                         <span><FontAwesomeIcon icon={faFacebookF} style={{ color: '#455a79' }} /></span>
                     </div>
                     <div className="social-icon">
-                        <span><Instagram /></span>
+                        <span><Instagram style={{ color: '#455a79' }} /></span>
                     </div>
                     <div className="social-icon">
-                        <span><Twitter /></span>
+                        <span><Twitter style={{ color: '#455a79' }} /></span>
                     </div>
 
                 </Box>

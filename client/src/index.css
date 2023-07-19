@@ -36,8 +36,8 @@ body,
   background-color: #27ce88;
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 5px;
 }
 
@@ -86,14 +86,16 @@ body,
   background-color: #2499ef;
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 5px;
   cursor: pointer;
 }
 
+
 .bgcolor6:hover{
   background: #0c5d96;
+ 
 }
 
 ::-webkit-scrollbar {
